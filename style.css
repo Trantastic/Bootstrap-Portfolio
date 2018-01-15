@@ -28,6 +28,22 @@ ul a {
 	border-left: 1px solid #cccccc;
 }
 
+/*Contact Form*/
+form h2 {
+	color: #4aaaa5;
+	border-bottom: 4px solid #cccccc;
+	font-size: 40px;
+}
+
+form label {
+	font-size: 20px;
+}
+
+input[value="Submit"] {
+	background-color: #4aaaa5;
+	color: #fff;
+}
+
 /*About Me header*/
 .card h2 {
 	font-size: 40px;
