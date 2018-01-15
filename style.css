@@ -12,26 +12,20 @@ nav {
 	border-bottom: 3px solid #cccccc;
 }
 
-.navbar-brand, ul {
-	padding: 10px;
-}
-
 .navbar-brand {
-	margin-left: 310px;
+	margin-left: 21.5%;
 	background-color: #4aaaa5;
-	height: 70px;
-	width: 250px;
 	text-align: center;
 	font-size: 35px;
 }
 
 ul {
-	margin-right: 8em;
+	margin-right: 18%;
 	font-size: 20px;
 }
 
-.card {
-	margin-top: 5em;
+ul a {
+	border-left: 1px solid #cccccc;
 }
 
 /*About Me header*/
@@ -58,9 +52,7 @@ ul {
 /*Connect With Me header*/
 .card h5 {
 	font-size: 30px;
-	text-align: center;
 	color: #4aaaa5;
-	padding-bottom: 20px;
 	border-bottom: 4px solid #cccccc;
 	clear: both;
 }
