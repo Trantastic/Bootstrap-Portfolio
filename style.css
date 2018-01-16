@@ -28,11 +28,34 @@ ul a {
 	border-left: 1px solid #cccccc;
 }
 
-/*Contact Form*/
-form h2 {
+/*Contact Form & Portfolio Headers*/
+form h2, .col-md-12 h2 {
 	color: #4aaaa5;
 	border-bottom: 4px solid #cccccc;
 	font-size: 40px;
+}
+
+/*Portfolio Images*/
+.imageResize {
+	height: 150px;
+	width: 200px;
+}
+
+/*Portfolio image headers*/
+a:first-of-type + h5 {
+	text-align: center;
+	border: 1px solid #4aaaa5;
+	background-color: #4aaaa5 !important;
+	color: #fff;
+	width: 10em;
+	margin-left: .6em;
+	margin-bottom: 20px;
+	padding: 10px;
+	margin-top: -55px;
+}
+
+.images {
+	min-width: 500px;
 }
 
 form label {
