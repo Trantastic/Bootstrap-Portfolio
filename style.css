@@ -39,19 +39,24 @@ form h2, .col-md-12 h2 {
 .imageResize {
 	height: 150px;
 	width: 200px;
+	position: relative;
+	z-index: 1;
 }
 
 /*Portfolio image headers*/
+
 a:first-of-type + h5 {
+	position: absolute;
 	text-align: center;
 	border: 1px solid #4aaaa5;
-	background-color: #4aaaa5 !important;
+	background-color: #4aaaa5;
 	color: #fff;
+	z-index: 2;
+	bottom: 10px;
+	left: 27px;
 	width: 10em;
-	margin-left: .6em;
-	margin-bottom: 20px;
-	padding: 10px;
-	margin-top: -55px;
+	padding-top: 5px;
+	padding-bottom: 5px;
 }
 
 .images {
